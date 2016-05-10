@@ -1,0 +1,2 @@
+oOk toto je testovaci subor
+skusam wogsiw_utils.hpp

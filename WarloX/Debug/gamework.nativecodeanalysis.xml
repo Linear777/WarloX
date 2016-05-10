@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\mathew\documents\visual studio 2013\projects\warlox\warlox\</FILEPATH><FILENAME>ogldev_util.h</FILENAME><LINE>47</LINE><COLUMN>6</COLUMN></SFA><DEFECTCODE>28251</DEFECTCODE><DESCRIPTION>Inconsistent annotation for 'fmax': this instance has no annotations. See c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1073). </DESCRIPTION><FUNCTION>fmax</FUNCTION><DECORATED>?fmax@@YAMMM@Z</DECORATED><FUNCLINE>47</FUNCLINE><PATH/></DEFECT></DEFECTS>

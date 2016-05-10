@@ -1,0 +1,28 @@
+Game:
+{
+	Characters:
+	{
+		Player:
+		{
+			name: "Player";
+			position: (100,100,100);
+			attribs: 
+					{
+						agility: 100;
+						strength: 100;
+			
+			
+					}
+		
+		}
+		
+	
+	}
+
+
+
+
+
+
+
+}

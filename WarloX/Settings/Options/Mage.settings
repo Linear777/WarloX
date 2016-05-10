@@ -1,0 +1,17 @@
+Movements:
+{
+	W : forward();
+	S : backward();
+	A : left();
+	D : right();
+	
+    SPACE : jump();
+}
+
+Actions:
+{
+	LEFT_CLICK : attack();
+	RIGHT_CLICK : defend();
+	WHEEL_SCROLL : change_skill();
+	WHEEL_CLICK : aim();
+}

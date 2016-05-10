@@ -1,0 +1,17 @@
+#version 330 core
+
+in vec2 TexCoords;
+
+
+out vec4 color;
+
+uniform sampler2D texture_diffuse1;
+
+void main()
+{    
+	vec4 coloro = vec4(texture(texture_diffuse1, TexCoords));
+
+	if(coloro.a < 0.2) discard;
+
+	color = coloro;
+}

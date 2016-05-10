@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine">
+      <UniqueIdentifier>{c6f020dd-e015-49be-9f88-1369b3269292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\Window">
+      <UniqueIdentifier>{ff4cb2ec-4870-4760-a823-c42c38101aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\RenderEngine">
+      <UniqueIdentifier>{040a07f2-7ac4-40e3-b588-ad4a434a7249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\FontEngine">
+      <UniqueIdentifier>{e4332d80-9b88-4ca4-8271-cf7fed4bf669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\System">
+      <UniqueIdentifier>{8994df10-73bd-4e66-82b6-69eeac0354cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\RenderEngine\Shaders">
+      <UniqueIdentifier>{43160b0a-01c8-425d-8d60-309a0445402c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\RenderEngine\Shaders\written">
+      <UniqueIdentifier>{ffa7a3c0-a4aa-4331-baba-f66356be0dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\RenderEngine\Shaders\Compilator">
+      <UniqueIdentifier>{fe14e5f9-1116-4ab8-907a-8fc1b165d2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects">
+      <UniqueIdentifier>{00b36b25-5d6e-45f7-b295-521a8fd37bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Mesh">
+      <UniqueIdentifier>{9ce80d80-1b23-44f1-834d-573e5dd18e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Terrain">
+      <UniqueIdentifier>{7ffa7973-c9e7-4235-9865-54b4ed449d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Generators">
+      <UniqueIdentifier>{cd2aa91e-39c4-4f86-a079-a14b462c580b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Generators\MeshGenerator">
+      <UniqueIdentifier>{026a344d-d5b9-40de-9fa7-7f295f6fdca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ErrorCheck">
+      <UniqueIdentifier>{791e9a35-1769-4187-a221-946b90d187e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Camera">
+      <UniqueIdentifier>{afc264f9-b802-482c-8a6a-a5b82248e8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\EventKey">
+      <UniqueIdentifier>{a2057115-b30c-4f06-b2c6-39557159398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Characters">
+      <UniqueIdentifier>{6b99ff67-5a6e-4dff-988c-5ecc19f1068f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Model">
+      <UniqueIdentifier>{a617e0b8-cbf5-4d12-8cf4-4b7d9f1c699e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Loaders">
+      <UniqueIdentifier>{02a40c56-9965-4abf-b2c1-342c5358c08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Groups">
+      <UniqueIdentifier>{86c510fc-595d-496d-82b5-d3254fb68dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Light">
+      <UniqueIdentifier>{3212192b-b10d-4741-a861-59d17a94ca83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\RenderEngine\Shaders\written\Light">
+      <UniqueIdentifier>{e835b267-7077-4c52-950c-e83d41b41deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\Window\GUI">
+      <UniqueIdentifier>{28e70d8d-130c-4855-ad99-916a7c7d10ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\Settings">
+      <UniqueIdentifier>{f1b74794-3678-4c2e-9108-ef42bcb91bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\Math">
+      <UniqueIdentifier>{ca274b2a-a30f-4f12-b091-868e220b7403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\RenderEngine\Shaders\written\Skinning">
+      <UniqueIdentifier>{bd11e7e5-368e-463f-8e35-5b638f13dce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\Skinning">
+      <UniqueIdentifier>{25eb5a00-ee30-4dee-91c7-81de9cf465ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sources">
+      <UniqueIdentifier>{4c83bfe4-12fa-4a96-9f8e-4e635ccaa5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sources\Test_Source">
+      <UniqueIdentifier>{41a741e9-321e-4006-95f5-49dec9e4fd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameEngine\Math\Sources">
+      <UniqueIdentifier>{43579619-e6c7-4d5a-8a4f-f72c6f4d9ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Utils">
+      <UniqueIdentifier>{3949a16e-e5e3-4543-845e-6b09a79b9449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Utils\Sources">
+      <UniqueIdentifier>{1a1a0419-bcd9-4e16-a285-e278c7dfa554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GlobalSettings">
+      <UniqueIdentifier>{d11e2a95-50d6-461f-bcd3-cc4391e6f577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GlobalSettings\Sources">
+      <UniqueIdentifier>{6d42ed58-4da9-45ed-b4e0-976c13eac825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Preprocess">
+      <UniqueIdentifier>{db0fa5f7-8b6c-44f0-ae1b-616f170b7e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills">
+      <UniqueIdentifier>{51824571-4549-4381-a108-f8de6666b0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills\Sources">
+      <UniqueIdentifier>{229217c3-f454-4e03-8b18-bb69fdb7f58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills\MageSkills">
+      <UniqueIdentifier>{3e855c57-b837-4315-97b8-cbc0b3260a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills\MageSkills\MageSources">
+      <UniqueIdentifier>{bc1992e2-d2ae-42a3-8da0-3fdb6e908c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills\Movement">
+      <UniqueIdentifier>{bd68943f-23f5-409b-8c0b-279ed2f76cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills\Movement\MovementSkills">
+      <UniqueIdentifier>{a6022e03-68bc-4f82-a67e-36d5d01528ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skills\Movement\MovementSkills\Sources">
+      <UniqueIdentifier>{507c5da2-a7e4-4642-b1f0-824d4dc10b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{d62eddbd-5da3-4a4c-ab34-d17e54fb201f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Camera\CameraBehavior">
+      <UniqueIdentifier>{ae8bbe51-8a15-4be1-ae36-9598bdc358ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GlobalSettings\Sources\ControlType">
+      <UniqueIdentifier>{90bbf009-1034-4044-af43-1e9bb6b87998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GlobalSettings\Sources\ControlType\Types">
+      <UniqueIdentifier>{740aa00d-7b7a-487d-993a-4c305edba098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Objects\Mesh\InstancedRender">
+      <UniqueIdentifier>{1edb422b-f187-45fa-8dc0-3d4d86821d23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderCompilator.cpp">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\Compilator</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowInit.cpp">
+      <Filter>Resource Files\FrameEngine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>Resource Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWork.cpp">
+      <Filter>Resource Files\FrameEngine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowCon.cpp">
+      <Filter>Resource Files\FrameEngine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Resource Files\Objects\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Resource Files\Objects\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Resource Files\FrameEngine\Window\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Resource Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="wogsiw_math.cpp">
+      <Filter>Resource Files\FrameEngine\Math\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="wogsiw_utils.cpp">
+      <Filter>Resource Files\Utils\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMesh.cpp">
+      <Filter>Resource Files\Objects\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SK.cpp">
+      <Filter>Resource Files\FrameEngine\Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="technique.cpp">
+      <Filter>Resource Files\FrameEngine\Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="wogsiw_pipeline.cpp">
+      <Filter>Resource Files\FrameEngine\Math\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlSystem.cpp">
+      <Filter>Resource Files\GlobalSettings\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Preprocess.cpp">
+      <Filter>Header Files\Preprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Header Files\Skills\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Header Files\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowInit.hpp">
+      <Filter>Resource Files\FrameEngine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.hpp">
+      <Filter>Resource Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Params.hpp">
+      <Filter>Resource Files\Generators\MeshGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.hpp">
+      <Filter>Resource Files\Generators\MeshGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWork.hpp">
+      <Filter>Resource Files\FrameEngine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowCon.hpp">
+      <Filter>Resource Files\FrameEngine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.hpp">
+      <Filter>Resource Files\ErrorCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Resource Files\Objects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.hpp">
+      <Filter>Resource Files\EventKey</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.hpp">
+      <Filter>Resource Files\Objects\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="tga_reader.h">
+      <Filter>Resource Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.hpp">
+      <Filter>Resource Files\Objects\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.hpp">
+      <Filter>Resource Files\Objects\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalDS.hpp">
+      <Filter>Resource Files\Generators\MeshGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Resource Files\FrameEngine\Window\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="wogsiw_math.hpp">
+      <Filter>Resource Files\FrameEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="wogsiw_utils.hpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMesh.hpp">
+      <Filter>Resource Files\Objects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.hpp">
+      <Filter>Resource Files\Objects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SK.hpp">
+      <Filter>Resource Files\FrameEngine\Skinning</Filter>
+    </ClInclude>
+    <ClInclude Include="technique.h">
+      <Filter>Resource Files\FrameEngine\Skinning</Filter>
+    </ClInclude>
+    <ClInclude Include="wogsiw_pipeline.hpp">
+      <Filter>Resource Files\FrameEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="wogsiw_types.hpp" />
+    <ClInclude Include="BlockParser.hpp">
+      <Filter>Resource Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="wogsiw_keys.hpp">
+      <Filter>Resource Files\EventKey</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlSystem.hpp">
+      <Filter>Resource Files\GlobalSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocess.hpp">
+      <Filter>Header Files\Preprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.hpp">
+      <Filter>Header Files\Skills\MageSkills</Filter>
+    </ClInclude>
+    <ClInclude Include="Firearc.hpp">
+      <Filter>Header Files\Skills\MageSkills\MageSources</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostarc.hpp">
+      <Filter>Header Files\Skills\MageSkills\MageSources</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.hpp">
+      <Filter>Header Files\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Header Files\Skills\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAction.hpp">
+      <Filter>Header Files\Skills\Movement\MovementSkills</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSkills.h">
+      <Filter>Header Files\Skills\MageSkills\MageSources</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="PerpMove.hpp">
+      <Filter>Resource Files\Objects\Camera\CameraBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionMove.hpp">
+      <Filter>Resource Files\Objects\Camera\CameraBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlType.hpp">
+      <Filter>Resource Files\GlobalSettings\Sources\ControlType</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicPlayerBehavior.hpp">
+      <Filter>Resource Files\GlobalSettings\Sources\ControlType\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectatorBehavior.hpp">
+      <Filter>Resource Files\GlobalSettings\Sources\ControlType\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.hpp">
+      <Filter>Resource Files\GlobalSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.hpp">
+      <Filter>Resource Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Joinas.hpp">
+      <Filter>Resource Files\Objects\Mesh\InstancedRender</Filter>
+    </ClInclude>
+    <ClInclude Include="rect.hpp">
+      <Filter>Resource Files\Generators\MeshGenerator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.warloX">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written</Filter>
+    </None>
+    <None Include="geometry.warloX">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written</Filter>
+    </None>
+    <None Include="fragment.warloX">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written</Filter>
+    </None>
+    <None Include="ShaderCompilator.hpp">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\Compilator</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Objects.inl">
+      <Filter>Resource Files\Objects</Filter>
+    </None>
+    <None Include="Mesh.hpp">
+      <Filter>Resource Files\Objects\Mesh</Filter>
+    </None>
+    <None Include="cubemap_f.ignia">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written</Filter>
+    </None>
+    <None Include="cubemap_v.ignia">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written</Filter>
+    </None>
+    <None Include="directional_light_v.ignis">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written\Light</Filter>
+    </None>
+    <None Include="directional_light_f.ignis">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written\Light</Filter>
+    </None>
+    <None Include="skinning.vs">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written\Skinning</Filter>
+    </None>
+    <None Include="skinning.fs">
+      <Filter>Resource Files\FrameEngine\RenderEngine\Shaders\written\Skinning</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Test\testing.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

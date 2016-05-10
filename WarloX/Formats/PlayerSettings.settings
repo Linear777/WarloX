@@ -1,0 +1,23 @@
+Movement
+{
+	Forward:	W;
+	Left:		A;
+	Back:		S;
+	Right:		D;
+	Jump:   	Space;
+};
+
+Attack	
+{
+	Basic:		Mouse-left;
+	Special:	Mouse-right;
+};
+
+Spell-Macros
+{
+	macro-0:	Mouse-wheel-0;
+	macro-1:	Mouse-wheel-1;
+	macro-2:	Mouse-wheel-2;
+	macro-3:	Mouse-wheel-3;
+	
+};
